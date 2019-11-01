@@ -12,7 +12,7 @@
 		Material Theme
     """,
 	'images':[
-        'images/screen.png'
+        'static/description/banner.png', 'images/screen.png', 
 	],
     "author": "JUVENTUD PRODUCTIVA VENEZOLANA",
     "license": "LGPL-3",
