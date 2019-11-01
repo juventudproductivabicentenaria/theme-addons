@@ -25,7 +25,7 @@
 		'views/users.xml',
     ],
     'images':[
-        'static/description/banner.png', 'images/screen.png', 
+        'images/jpv-theme.png.png', 'static/description/banner.png', 
 	],
     'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1'
 }
