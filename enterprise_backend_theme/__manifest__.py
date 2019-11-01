@@ -3,17 +3,14 @@
 
 {
     "name": "Enterprise Backend Theme",
-    "summary": "Enterprise Backend Theme",
+    "summary": "Customize odoo 12 CE with the menu, colored buttons and background of Odoo Enterprise",
     "version": "12.0.0.1",
-    "category": "Theme-Backend",
+    "category": "Theme/Backend",
     "website": "https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1",
 	"description": """
 		Enterprise Backend Theme for Odoo 12.0 community edition.
 		Material Theme
     """,
-	'images':[
-        'static/description/banner.png', 'images/screen.png', 
-	],
     "author": "JUVENTUD PRODUCTIVA VENEZOLANA",
     "license": "LGPL-3",
     "installable": True,
@@ -27,7 +24,10 @@
 		'views/res_company_view.xml',
 		'views/users.xml',
     ],
+    'images':[
+        'static/description/banner.png', 'images/screen.png', 
+	],
     'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1'
-
+    'live_test_url': 'demo12.solucionesofthard.com'
 }
 
