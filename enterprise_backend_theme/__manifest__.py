@@ -26,8 +26,6 @@
         'views/assets.xml',
 		'views/res_company_view.xml',
 		'views/users.xml',
-        # ~ 'views/sidebar.xml',
-		#'views/web.xml',
     ],
     'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1'
 

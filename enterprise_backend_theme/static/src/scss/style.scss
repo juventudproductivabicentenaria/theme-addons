@@ -26,8 +26,10 @@ $brand-secondary: #00A09D;
 
 
 $brand-primary-dark: darken($brand-primary, 10%);
+$brand-primary-light: lighten($brand-primary, 10%);
 $brand-secondary-dark: darken($brand-secondary, 10%);
 $brand-secondary-light: lighten($brand-secondary, 10%);
+
 
 body {
     font-family: "Roboto";
@@ -56,6 +58,10 @@ body {
 
 .o_main_navbar .show .dropdown-toggle {
     background-color: $brand-primary-dark;
+}
+
+.o_kanban_view .oe_kanban_color_11::after {
+    background-color: $brand-primary;
 }
 
 // Fix color Add file button
@@ -533,10 +539,10 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     }
 }
 
-//percent pie
-//.o_field_widget.o_field_percent_pie .o_pie:after {
-//    border: 1px solid #875A7B;
-//}
+.o_dashboard_graph.o_graph_barchart > svg g.nv-barsWrap g.nv-group.nv-series-0 g.future {
+    fill: $brand-primary !important;
+}
+
 // Percent pie
 .o_field_widget {
     // Percent pie
@@ -557,4 +563,24 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
             }
         }
     }
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: $brand-secondary !important;
+    border-color: $brand-secondary !important;
+}
+
+.o_list_view .o_field_x2many_list_row_add a:focus, .o_list_view .o_field_x2many_list_row_add a:active {
+    color: $brand-secondary-dark;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    //color: rgb(255, 255, 255);
+    background-color: $brand-secondary;
+    border-color: $brand-secondary-light !important;
+}
+
+.o_mail_discuss .o_mail_discuss_sidebar .o_mail_discuss_item.o_active {
+    box-shadow: inset 3px 0 0 $brand-primary;
 }

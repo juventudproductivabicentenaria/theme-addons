@@ -5,7 +5,6 @@
 		<template id="assets_backend" name="Enterprise Backend Ttheme" inherit_id="web.assets_backend">
 		<xpath expr=".">
                 <link rel="stylesheet" href="/enterprise_backend_theme/static/src/scss/style.scss"/>
-				<link rel="stylesheet" href="/enterprise_backend_theme/static/src/scss/sidebar.scss"/>
 			</xpath>
 		</template>
     </data>
