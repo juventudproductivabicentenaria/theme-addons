@@ -28,6 +28,5 @@
         'static/description/banner.png', 'images/screen.png', 
 	],
     'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1'
-    'live_test_url': 'demo12.solucionesofthard.com'
 }
 
