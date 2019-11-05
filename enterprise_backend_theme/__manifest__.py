@@ -28,6 +28,8 @@
         'static/description/banner.png',
         'static/description/jpv_theme_screenshot.png', 
 	],
-    'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1'
+    'price': 12.0,
+    'currency': 'EUR',
+    'live_test_url': 'https://www.youtube.com/c/JuventudProductivaVenezolana?sub_confirmation=1',
 }
 
